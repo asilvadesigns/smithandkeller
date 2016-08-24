@@ -28,7 +28,6 @@ h4,
 h5 {
 	font-size: 100%;
 	font-weight: normal;
-	margin-top: 1.4em;
 }
 /*
  * Buttons
@@ -57,12 +56,13 @@ h5 {
  * Portfolio Item
  */
 .portfolio-item {
+	margin-top: 1.4em;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-webkit-box-align: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
